@@ -33,6 +33,11 @@ const produtos = [
         id: 7,
         nome: "Porta absorvente",
         valor: 6.99,
+    },
+    {
+        id: 8,
+        nome: "Conta gotas",
+        valor: 3.45325165416515641651,
     }
 ]
 
