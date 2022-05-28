@@ -70,7 +70,7 @@ export default function App(props) {
                 </Card>
 
                 <Card titulo="Teste de Card" color="#555">
-                    <h1>Conteúdo</h1>
+                    <h1>Conteúdo aqui</h1>
                     <img src="./aluno.jpg" alt="" />
                 </Card>
             </div>
