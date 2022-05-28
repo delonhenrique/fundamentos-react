@@ -11,6 +11,7 @@ import ListaAlunos from "./components/loop/ListaAlunos";
 import TabelaProdutos from "./components/loop/TabelaProdutos";
 import ParOuImpar from "./components/Condicional/ParOuImpar";
 import UsuarioInfo from "./components/Condicional/UsuarioInfo";
+import DiretaPai from "./components/comunicacao/DiretPai";
 
 import './App.css'
 
@@ -20,6 +21,7 @@ export default function App(props) {
             <h1>Fundamentos React!</h1>
 
             <div className="Cards">
+
                 <Card titulo="#01 - Primeiro Componente" color="#588C73">
                     <Primeiro></Primeiro>
                 </Card>
@@ -56,11 +58,20 @@ export default function App(props) {
                 <Card titulo="#07 - Desafio Repetição" color="#3A9AD9">
                     <TabelaProdutos />
                 </Card>
-        
+
                 <Card titulo="#08 - Renderização Condicional" color="#982395">
                     <ParOuImpar numero={19}></ParOuImpar>
-                    <UsuarioInfo usuario={{nome: 'Delon'}}></UsuarioInfo>
-                    <UsuarioInfo usuario={{email: 'delonhenrique@123.com'}}></UsuarioInfo>
+                    <UsuarioInfo usuario={{ nome: 'Delon' }}></UsuarioInfo>
+                    <UsuarioInfo usuario={{ email: 'delonhenrique@123.com' }}></UsuarioInfo>
+                </Card>
+
+                <Card titulo="#09 - Comunicação Direta" color="#">
+                    <DiretaPai />
+                </Card>
+
+                <Card titulo="Teste de Card" color="#555">
+                    <h1>Conteúdo</h1>
+                    <img src="./aluno.jpg" alt="" />
                 </Card>
             </div>
         </div>
