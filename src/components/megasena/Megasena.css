@@ -1,0 +1,9 @@
+.Megasena input {
+    font-size: 1.4rem;
+    width: 50px;
+    text-align: center;
+}
+
+.Megasena label {
+    margin-right: 10px;
+}

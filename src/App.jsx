@@ -12,6 +12,10 @@ import TabelaProdutos from "./components/loop/TabelaProdutos";
 import ParOuImpar from "./components/Condicional/ParOuImpar";
 import UsuarioInfo from "./components/Condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretPai";
+import IndireataPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/formulario/Input";
+import Contador from "./components/contador/Contador";
+import Megasena from "./components/megasena/Megasena";
 
 import './App.css'
 
@@ -69,9 +73,20 @@ export default function App(props) {
                     <DiretaPai />
                 </Card>
 
-                <Card titulo="Teste de Card" color="#555">
-                    <h1>Conteúdo aqui</h1>
-                    <img src="./aluno.jpg" alt="" />
+                <Card titulo="#10 - Comunicação Inddireta" color="#8BAD39">
+                    <IndireataPai />
+                </Card>
+
+                <Card titulo="#11 - Componente Controlado (Input)" color="#E45F56">
+                    <Input></Input>
+                </Card>
+
+                <Card titulo="#12 - Contador" color="#424242">
+                    <Contador numeroInicial={10}></Contador>
+                </Card>
+
+                <Card titulo="#13 - Megasena" color="#B9006E">
+                    <Megasena quantidade={8}></Megasena>
                 </Card>
             </div>
         </div>
